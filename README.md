@@ -46,9 +46,3 @@ Run the GUI application:
 ```bash
 java -jar FilePackerUnpacker.jar gui
 
-
-
-## ABOUT
-
-This application is designed for packing and unpacking activities involving multiple types of files. In the packing process, a single file is maintained, containing metadata and data from various files within the specified directory. The unpacking process extracts data from packed files and recreates individual files based on their metadata. Java is employed for both frontend and backend development to ensure platform independency.
-
