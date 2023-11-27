@@ -28,10 +28,9 @@ This Java-based application facilitates the zipping and unzipping of directories
 3. **Platform Independency:**
    - Utilizes Java for both frontend and backend, ensuring the application's compatibility across different operating systems.
 
-## Usage
+## Overview
 
-### Command Line Interface (CLI)
-
+This Java-based application facilitates the zipping and unzipping of directories, offering a versatile solution for file management. The project supports both Command Line Interface (CLI) and Graphical User Interface (GUI) for user interaction.
 
 ## Usage
 
