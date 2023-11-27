@@ -47,5 +47,3 @@ Run the GUI application:
 java -jar FilePackerUnpacker.jar gui
 
 
-  
-## Features
