@@ -46,3 +46,6 @@ Run the GUI application:
 ```bash
 java -jar FilePackerUnpacker.jar gui
 
+
+  
+## Features
