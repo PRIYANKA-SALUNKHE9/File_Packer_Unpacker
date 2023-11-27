@@ -38,12 +38,12 @@ java -jar FilePackerUnpacker.jar pack <source_directory> <destination_archive_na
 
 
 To unpack files:
-```bash
+
 java -jar FilePackerUnpacker.jar unpack <packed_archive> <destination_directory>
 
 Graphical User Interface (GUI)
 Run the GUI application:
-```bash
+
 java -jar FilePackerUnpacker.jar gui
 
 
