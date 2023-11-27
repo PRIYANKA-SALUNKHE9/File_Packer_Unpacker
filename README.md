@@ -45,3 +45,6 @@ Run the GUI application:
 java -jar FilePackerUnpacker.jar gui
 
 
+## Platform and Architecture Requirements
+
+- **Platform:** Windows or Linux Distributions
