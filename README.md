@@ -1,32 +1,37 @@
-# File_Packer_Unpacker
+# File Packer/Unpacker
 
-  This Application Is Based On Zipping And Unzipping The Directory
+![Java](https://img.shields.io/badge/Java-Programming-orange)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Intel%2032%20Bit%20or%20Higher-blue)
 
-<h3><B> PlATFORM REQUIRED: </B></h3>
+## Overview
 
-    Windows Platform Or Linux Distributions.
+This Java-based application facilitates the zipping and unzipping of directories, offering a versatile solution for file management. The project supports both Command Line Interface (CLI) and Graphical User Interface (GUI) for user interaction.
 
-<h3><B> ARCHITECTURAL REQUIREMENT : </B></h3>
+## Platform and Architecture Requirements
 
-    INTEL 32 Bit Processor Or Higher.
+- **Platform:** Windows or Linux Distributions
+- **Architecture:** Intel 32 Bit Processor or Higher
 
-<h3><B>USER INTERFACE :</B></h3>
+## Technology Used
 
-    Command Line Interface And GUI.
+- **Programming Language:** Java
 
+## Features
 
-<h3><B>TECHNOLOGY USED :</B></h3>
+1. **Packing Activity:**
+   - Combines metadata and data of multiple files from a specified directory into a single archive.
 
-    Java Programming.
+2. **Unpacking Activity:**
+   - Extracts all data from packed files and creates individual files according to their metadata.
 
-<h1 >ABOUT This Application</h1>
+3. **Platform Independency:**
+   - Utilizes Java for both frontend and backend, ensuring the application's compatibility across different operating systems.
 
-  1) This Application Is Used To Perform Packing And Unpacking Activity For Multiple Types Of Files. 
-  
-  2) In Case Of Packing Activity I Maintain One File Which Contains Metadata And Data Of Multiple Files From Specified Directory. 
-  
-  3) In Case Of Unpacking Activity I Extract All Data From Packed Files And According To Its Metadata It Create All Files. 
-  
-  4) In This Application I Use Java As Frontend As Well As Backend Also For Platform Independency.
+## Usage
 
- 
+### Command Line Interface (CLI)
+
+To pack files:
+```bash
+java -jar FilePackerUnpacker.jar pack <source_directory> <destination_archive_name>
