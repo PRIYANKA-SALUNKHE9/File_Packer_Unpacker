@@ -32,6 +32,11 @@ This Java-based application facilitates the zipping and unzipping of directories
 
 ### Command Line Interface (CLI)
 
+
+## Usage
+
+### Command Line Interface (CLI)
+
 To pack files:
 ```bash
 java -jar FilePackerUnpacker.jar pack <source_directory> <destination_archive_name>
