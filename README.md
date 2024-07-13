@@ -32,20 +32,6 @@ This Java-based application facilitates the zipping and unzipping of directories
 
 This application is designed for packing and unpacking activities involving multiple types of files. In the packing process, a single file is maintained, containing metadata and data from various files within the specified directory. The unpacking process extracts data from packed files and recreates individual files based on their metadata. Java is employed for both frontend and backend development to ensure platform independency.
 
-## Usage
+## Output
 
-### Command Line Interface (CLI)
-
-To pack files:
-```bash
-java -jar FilePackerUnpacker.jar pack <source_directory> <destination_archive_name>
-
-
-To unpack files:
-java -jar FilePackerUnpacker.jar unpack <packed_archive> <destination_directory>
-
-Graphical User Interface (GUI)
-Run the GUI application:
-java -jar FilePackerUnpacker.jar gui
-
-
+![PackUnpack](https://github.com/user-attachments/assets/77b20f1c-ec1c-4803-a0cf-8657a9301b2d)
